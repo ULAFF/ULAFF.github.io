@@ -1,0 +1,199 @@
+/*
+* Greg Reda
+* Styling based on the Skeleton documention (http://www.getskeleton.com/)
+* 11/25/2012
+* Use it however you want
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+
+{margin: 0; padding: 0;}
+html, body {
+	height: 100%;
+	font-family: "Droid Sans", sans-serif;
+}
+h1, h2, h3, h4, h5, h6 { font-family: "Droid Serif", serif; }
+#content h3, h4 { margin-top: 20px; }
+
+ul {
+	font-family: "Droid Serif", serif;
+	list-style: disc inside;
+	text-indent: 20px;
+}
+
+#price-table {
+	border-collapse: separate;
+	border-spacing: 75px 5px;
+	border-left-style: 1px solid #7a7;
+}
+
+div.container {
+	padding-top: 50px;
+	min-height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+footer {
+	float: right !important;
+	/*height: 50px;*/
+	/*position: relative;*/
+	text-align: center;
+	/*clear: both;*/
+}
+
+section#content {
+	margin-top: 50px;
+	float: right;
+}
+#content img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 90%;
+}
+
+
+/*SIDEBAR*/
+#sidebar {
+	font-size: 12px;
+	position: fixed;
+	text-align: center;
+	font-family: "Droid Serif", serif;
+}
+
+#sidebar li {
+	margin: 0px;
+	font-size: 18px;
+}
+
+#logo {
+	position: fixed;
+	background-color: #fff;
+	width: 100%;
+	padding-top: 20px;
+	margin-left: 15%;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+#pages {
+	margin-top: 50%;
+	margin-bottom: 0;
+}
+
+#avatar {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 140px;
+}
+
+
+blockquote {
+	padding: 0px 20px 0px 20px !important;
+	border-left: 2px solid #ddd !important;
+}
+
+
+/*
+* Styling
+*/
+
+/*Links*/
+a, a:visited {
+	text-decoration: none !important;
+	font-weight: bold;
+}
+
+a.icon, a:visited.icon, a:active.icon {
+	font-size: 17px;
+	color: #555;
+	font-weight: bold;
+}
+a:hover.icon, a:focus.icon { color: #222; }
+
+/*Horizontal Rulers*/
+hr.large {
+	border: none;
+	height: 2px;
+	background-color: #ebebeb;
+	margin: 10px 10px;
+}
+
+hr.small {
+	margin: 5px 0px;
+}
+
+hr.index {
+	width: 50%;
+}
+
+
+/*Article Design*/
+.article-title {
+	clear: both;
+	float: left;
+	margin-top: 0px !important;
+}
+.article-date {
+	font-style: italic;
+	float: right;
+	margin: 8px 10px;
+}
+.article-summary { clear: both; }
+.article-content { clear: both; overflow: hidden; }
+.article-content img { border: 1px solid #222; }
+
+.article-content p {
+	margin: 12px 0px 12px 0px !important;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 400;
+	line-height: 1.4em;
+	font-size: 18px;
+}
+
+.caption { font-size: 12px !important; }
+
+.back-to-home {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+
+/*Code Formatting*/
+code, pre.ipynb {
+	font-family: "Source Code Pro", monospace !important;
+	font-size: 13px !important;
+}
+.highlight, pre {
+	font-family: "Source Code Pro", monospace;
+	font-size: 12px;
+	background-color: #272822;
+	line-height: 125%;
+	padding: 5px 10px 5px 10px;
+	border-radius: 4px;
+}
+
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+    #sidebar {
+        position: relative;
+        width: 100%;
+        top: 8px;
+    }
+
+    #content {
+        float: none;
+        margin-top: 30px;
+    }
+
+    #content img {
+		max-width: 85%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

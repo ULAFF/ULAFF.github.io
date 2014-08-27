@@ -137,10 +137,20 @@ hr.index {
 	float: left;
 	margin-top: 0px !important;
 }
+.article-info {
+	font-style: italic;
+	float: right;
+	margin: 8px 10px;
+}
 .article-date {
 	font-style: italic;
 	float: right;
 	margin: 8px 10px;
+}
+.article-modified {
+	font-style: italic;
+	float: left;
+	clear: left;
 }
 .article-summary { clear: both; }
 .article-content { clear: both; overflow: hidden; }

@@ -65,7 +65,11 @@ section#content {
 
 #sidebar li {
 	margin: 0px;
-	font-size: 18px;
+	margin-top: 15px; 
+	font-size: 14px;
+	text-align: left;
+	list-style: none;
+	text-indent: 0px;
 }
 
 #logo {
@@ -79,6 +83,11 @@ section#content {
 }
 
 #pages {
+	margin-top: 50%;
+	margin-bottom: 0;
+}
+
+#nav {
 	margin-top: 50%;
 	margin-bottom: 0;
 }
